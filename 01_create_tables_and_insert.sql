@@ -1,8 +1,8 @@
 
-CREATE DATABASE CS631_nandiniMannepalli;
+CREATE DATABASE Student_Database;
 GO
 
-USE CS631_nandiniMannepalli;
+USE Student_Database;
 GO
 
 
@@ -82,16 +82,16 @@ VALUES
 
 INSERT INTO Student (FirstName, LastName, Email, DateOfBirth)
 VALUES
-('Nandini','Mannepalli','nandini@edu.com','1999-01-10'),
-('Virinchi','Billa','virinchi@edu.com','2002-03-15'),
-('Yugesh','Akula','yugesh@edu.com','2001-05-20'),
-('Sangwha','Lee','sangwha@edu.com','2000-07-11'),
-('Sowmya','Pandey','sowmya@edu.com','2004-12-01'),
-('Himani','Parmar','himani@edu.com','2003-02-19'),
-('Shankari','Thiagarajan','shankari@edu.com','1999-09-23'),
-('Vamshi','Maroju','vamshi@edu.com','2001-10-30'),
-('Sasirmayee','Modukuri','sasirmayee@edu.com','1998-08-17'),
-('Abhishek','Joshi','abhishek@edu.com','2001-06-25');
+('Olivia','Harper','Olivia@edu.com','1999-01-10'),
+('Ethan','Caldwell','Ethan@edu.com','2002-03-15'),
+('Sophia','Martinez','Sophia@edu.com','2001-05-20'),
+('Liam','Donovan','Liam@edu.com','2000-07-11'),
+('Isabella','Chen','Isabella@edu.com','2004-12-01'),
+('Mason','Fitzgerald','Mason@edu.com','2003-02-19'),
+('Ava','Thompson','Ava@edu.com','1999-09-23'),
+('Noah','Kim','Noah@edu.com','2001-10-30'),
+('Mia','Sullivan','Mia@edu.com','1998-08-17'),
+('Lucas','Rivera','Lucas@edu.com','2001-06-25');
 
 
 INSERT INTO Instructor (FirstName, LastName, Email, DepartmentID)
