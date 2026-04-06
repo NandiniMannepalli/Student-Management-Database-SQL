@@ -1,5 +1,5 @@
 
-USE CS631_nandiniMannepalli;
+USE Student_Database;
 GO
 
 
